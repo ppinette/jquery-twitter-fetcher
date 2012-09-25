@@ -1,0 +1,60 @@
+/* --------------------------------------------------    
+ * jQuery Twitter Fetcher
+-----------------------------------------------------*/
+
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+
+body { 
+	font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+#header {
+	width: 100%;
+	background: #35302f;
+}
+
+h1, h4 {
+	color: #d6d3d0;
+	width: 520px;
+	display: block;
+	margin: 0 auto;
+	padding: 8px 20px;
+}
+
+
+#tweets_holder {
+	width: auto;
+	width: 520px;
+	margin: 0 auto;
+	box-shadow: 0 2px 4px #35302f;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0 20px;
+	padding: 0;
+	width: 480px; 
+}
+
+li {
+	border-bottom: 1px solid #d6d3d0;
+	padding: 8px 0 14px;
+}
+
+ul li img {
+	float: left;
+	margin-right: 18px;
+}
+
+ul li p {
+	font-size: 72%;
+	margin: 4px;
+}
+
+span.date {
+	font-size: 62%;
+	float: right;
+}
