@@ -55,11 +55,11 @@
             var tweet = $('<li>');
 
             if (options.profile_name) {
-                tweet.append($('<span>').text(data[i].user.name));
+                tweet.append($('<span>').addClass('tweet-user-name').text(data[i].user.name));
             }
 
             if (options.profile_screen_name) {
-                tweet.append($('<span>').text('@' + data[i].user.screen_name));
+                tweet.append($('<span>').addClass('tweet-screen-name').text('@' + data[i].user.screen_name));
             }
 
             if (options.profile_image) {
@@ -73,7 +73,7 @@
             ));
 
             if (options.show_time) {
-                tweet.append($('<span>').addClass('date').text(
+                tweet.append($('<span>').addClass('tweet-date').text(
                     options.format_date_callback(data[i].created_at))
                 );
             }
